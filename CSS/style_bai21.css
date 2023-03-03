@@ -1,0 +1,137 @@
+*{
+    width: auto;
+    height: auto;
+    list-style: none;
+    text-decoration: none;
+}
+
+#Header{
+    text-align: center;
+}
+
+#background{
+    box-shadow: 0px 0px 10px 5px rgba(0, 0 , 0, 0.2);
+    width: 700px;
+    height: 515px;
+    margin-left: 200px;
+}
+
+#menu nav .main_menu {
+    display: flex;
+    background-color: rgb(79, 81, 82);
+    justify-content: space-between;
+    padding: 0px 60px;
+    margin: 0;
+    width: 700px;
+    width: 700px;
+  }
+
+  #menu nav .main_menu li:hover {
+    background-color: chartreuse;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    padding: 0px 20px;
+  }
+  
+  #menu nav .main_menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    font-size: 16px;
+    width: 700px;
+  }
+  
+  #menu nav .main_menu li {
+    position: relative;
+    display: inline-block;
+  }
+  
+  #menu nav .main_menu li a {
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 10px 5px;
+    text-decoration: none;
+
+  }
+  
+  #menu nav .main_menu ul li {
+    display: block;
+    margin: 0;
+  }
+  
+  #menu nav .main_menu ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    min-width: 151px;
+  }
+  
+  #menu nav .main_menu li:hover > ul {
+    display: block;
+  }
+  #menu nav .main_menu ul .muiten:hover::before {
+    transform: rotate(-135deg);
+  }
+  #muiten{
+    padding: 0px 5px;
+  }
+
+#nav{
+    max-width: 170px;
+    background-color: rgb(216, 216, 216);
+    max-height: 600px;
+    position: relative;
+    margin-top: -19px;
+}
+#nav li{
+    margin-left: 15px;
+}
+#nav :hover {
+    font-weight: bold;
+}
+#nav li a {
+    color: black;
+}
+#Content{
+    margin-left: 181px;
+    margin-top: -370px;
+}
+.banner {
+    background-image: url(https://www.filecloud.com/developer/);
+    cursor: pointer;
+}
+.Title1{
+    margin-top: -19px;
+}
+.next{
+    font-size: 20px;
+    float :right;
+    margin-right: 40px;
+    margin-top: 2px;
+}
+.back{
+    font-size: 20px;
+    margin-left: 32px;
+}
+
+#noidung{
+    margin-left: 200px;
+    line-height: 26px;
+}
+.img{
+    overflow: hidden;
+    width: auto;
+    height: 80px;
+    margin-left: -10px;
+    margin-right: 20px;
+}
+
+#ket{
+    float: left;
+    margin-left: 180px;
+    margin-top: -20px;
+}
